@@ -1,0 +1,88 @@
+# =====================================
+# GERAL
+# =====================================
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs e editores
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs e temporários
+*.log
+*.tmp
+*.bak
+*.swp
+
+# =====================================
+# BACKEND (.NET)
+# =====================================
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.config
+*.dbmdl
+*.jfm
+*.ncb
+*.opendb
+*.vsp
+*.vspscc
+*.vssscc
+*.userprefs
+*.vs/
+*.psess
+*.vspx
+*.pidb
+TestResult*/
+[Bb]uild/
+[Ll]og/
+launchSettings.json
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# =====================================
+# FRONTEND (Angular)
+# =====================================
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/.cache/
+frontend/.sass-cache/
+frontend/.npm/
+frontend/.yarn/
+frontend/package-lock.json
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.env
+frontend/.env.*
+
+# =====================================
+# OUTROS
+# =====================================
+# Arquivos locais
+*.env
+.env.*
+!example.env
+
+# Backups e exportações
+*.zip
+*.tar
+*.gz
+
+# =====================================
+# EXCEÇÕES
+# =====================================
+!README.md
+!LICENSE

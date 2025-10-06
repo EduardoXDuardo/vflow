@@ -1,0 +1,6 @@
+@vflow_HostAddress = http://localhost:5050
+
+GET {{vflow_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
